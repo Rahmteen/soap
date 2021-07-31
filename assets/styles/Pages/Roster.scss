@@ -1,0 +1,26 @@
+.roster-container {
+  .card {
+    border-radius: 0px !important;
+    &:hover {
+      .card-img-top {
+        opacity: 10%;
+        transition: 0.15s ease-in-out;
+      }
+      .p-artist {
+        opacity: 100%;
+        transition: 0.15s ease-in-out;
+      }
+    }
+    .card-img-top {
+      transition: 0.15s ease-in-out;
+      border-radius: 0px !important;
+    }
+    .p-artist {
+      transition: 0.15s ease-in-out;
+      position: absolute;
+      bottom: 100px;
+      left: 29%;
+      opacity: 0%;
+    }
+  }
+}
